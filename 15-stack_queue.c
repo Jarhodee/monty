@@ -7,7 +7,7 @@ void f_queue(stack_t **head, unsigned int counters)
 	bus.lifi = 1;
 }
 
-void ddqueue(stack_t **head, int n)
+void addqueue(stack_t **head, int n)
 {
 	stack_t *new_node, *aux;
 
